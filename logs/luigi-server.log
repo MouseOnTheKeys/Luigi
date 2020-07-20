@@ -582,3 +582,6 @@
 2020-07-20 21:37:41,393 tornado.access[27699] INFO: 200 POST /api/get_work (127.0.0.1) 0.83ms
 2020-07-20 21:37:41,396 tornado.access[27699] INFO: 200 POST /api/add_task (127.0.0.1) 0.79ms
 2020-07-20 21:37:41,398 tornado.access[27699] INFO: 200 POST /api/get_work (127.0.0.1) 0.71ms
+2020-07-20 21:50:02,748 luigi.scheduler[27699] INFO: Removing task 'HelloWorldTask_test_38c5a156b6'
+2020-07-20 21:50:02,748 luigi.scheduler[27699] INFO: Removing task 'PrintWordTask_results_test_hel_Hello_57e944e347'
+2020-07-20 21:50:02,749 luigi.scheduler[27699] INFO: Removing task 'PrintWordTask_results_test_wor_World_d03a3fb233'
