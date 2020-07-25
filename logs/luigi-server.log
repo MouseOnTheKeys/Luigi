@@ -603,3 +603,15 @@ FileNotFoundError: [Errno 2] No such file or directory: '/var/lib/luigi-server/s
 2020-07-21 16:30:07,866 tornado.access[5216] INFO: 200 POST /api/add_worker (127.0.0.1) 0.62ms
 2020-07-21 16:30:07,867 tornado.access[5216] INFO: 200 POST /api/get_work (127.0.0.1) 0.69ms
 2020-07-21 16:42:10,096 luigi.scheduler[5216] INFO: Removing task 'HelloWorldTask_test_38c5a156b6'
+2020-07-21 17:58:39,830 luigi.server[5216] INFO: Scheduler instance shutting down
+2020-07-21 17:58:39,830 luigi.scheduler[5216] WARNING: Failed saving scheduler state
+Traceback (most recent call last):
+  File "/home/nenad/Documents/Luigi/Luigi/lib/python3.8/site-packages/luigi/scheduler.py", line 465, in dump
+    with open(self._state_path, 'wb') as fobj:
+FileNotFoundError: [Errno 2] No such file or directory: '/var/lib/luigi-server/state.pickle'
+2020-07-21 17:58:39,833 luigi.server[5216] INFO: Scheduler instance shutting down
+2020-07-21 17:58:39,834 luigi.scheduler[5216] WARNING: Failed saving scheduler state
+Traceback (most recent call last):
+  File "/home/nenad/Documents/Luigi/Luigi/lib/python3.8/site-packages/luigi/scheduler.py", line 465, in dump
+    with open(self._state_path, 'wb') as fobj:
+FileNotFoundError: [Errno 2] No such file or directory: '/var/lib/luigi-server/state.pickle'
